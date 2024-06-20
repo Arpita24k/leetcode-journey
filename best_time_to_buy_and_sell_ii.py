@@ -24,6 +24,6 @@ prices1 = [7, 1, 5, 3, 6, 4]
 prices2 = [1, 2, 3, 4, 5]
 prices3 = [7, 6, 4, 3, 1]
 
-print("Max Profit for prices1:", solution.maxProfit(prices1))  # Output: 7
-print("Max Profit for prices2:", solution.maxProfit(prices2))  # Output: 4
-print("Max Profit for prices3:", solution.maxProfit(prices3))  # Output: 0
+print("Max Profit for prices 1:", solution.maxProfit(prices1))  # Output: 7
+print("Max Profit for prices 2:", solution.maxProfit(prices2))  # Output: 4
+print("Max Profit for prices 3:", solution.maxProfit(prices3))  # Output: 0
