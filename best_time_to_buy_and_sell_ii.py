@@ -3,7 +3,7 @@ from typing import List
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         """
-        Calculate the maximum profit that can be obtained by buying and selling a stock multiple times.
+        Calculate the maximum profit obtained by buying and selling a stock multiple times.
         
         Args:
         - prices: List of stock prices on each day
