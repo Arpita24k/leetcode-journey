@@ -1,0 +1,16 @@
+class Solution:
+    def sortPeople(self, names: [str], heights: [int]) -> [str]:
+        # Pair each name with its corresponding height
+        people = list(zip(names, heights))
+        
+        # Sort the pairs by height in descending order
+        people.sort(key=lambda x: x[1], reverse=True)
+        
+        # Extract and return the sorted names
+        sorted_names = [person[0] for person in people]
+        return sorted_names
+
+# Examples
+solution = Solution()
+print(solution.sortPeople(["Mary","John","Emma"], [180,165,170]))  # Output: ["Mary","Emma","John"]
+print(solution.sortPeople(["Alice","Bob","Bob"], [155,185,150]))   # Output: ["Bob","Alice","Bob"]
